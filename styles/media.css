@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px){
+    .main-landing {
+       flex-direction: column;
+   }
+
+   .main-textos {
+    margin-left: 8%;
+}
+
+.main-div-agradecimento {
+    font-size: 60%;
+}
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 821px){
+    .main-landing {
+        flex-direction: column;
+        margin-left: 20%;
+ 
+    }
+
+    .main-div-agradecimento {
+        align-items: center;
+    }
+
+ }

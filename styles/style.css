@@ -1,0 +1,177 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.799), rgba(0, 0, 0, 0.807)), url(../components/images/pexels-aphiwat-chuangchoem-347226.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    max-width: 4000px;
+    min-width: 300px;
+    max-height: 4000px;
+    min-height: 300px;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    background-color: rgba(47, 34, 27, 0.994);
+}
+
+header div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header-1 {
+    color: rgb(218, 215, 135);
+    
+}
+
+.header-1 h6 {
+    font-size: 8px;
+}
+
+.header-2 {
+    
+    color: rgb(214, 177, 141);
+    white-space: nowrap;
+}
+
+.main-landing {
+    display: flex;
+    color: antiquewhite;
+}
+
+.main-textos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+    column-gap: 10px;
+    margin-top: 8%;
+}
+
+.main-textos h1 {
+    font-size: 320%;
+    font-family: afterg;
+
+}
+.main-h4 {
+    color: rgb(138, 249, 132);
+    font: 2em afterg;
+}
+
+.main-textos h3 {
+    margin: 10px 0px 10px 0px;
+    font: 1.5em sans-serif;
+
+}
+
+.main-p1 {
+    font-size: 17px;
+    width: 60%;
+    margin: 10px 0px 10px 0px;
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+}
+
+div form {
+    width:  60%;
+    height: 85%;
+    margin-top: 16%;
+    margin-left: 10%;
+    background-color: rgb(204, 193, 143);
+    max-width: 320px;
+    min-width: 320px;
+    max-height: 470px;
+    min-height: 470px;  
+}
+
+form h5 {
+    margin-left: 30%;
+}
+
+form h1 {
+    font-size: 175%;
+    text-align: center;
+    font-family: sans-serif, serif;
+
+}
+
+form h5 {
+    color: black;
+}
+
+input {
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin: 8px;
+    font: message-box;
+    padding: 15px;
+}
+
+    button {
+       width: 300px;
+       height: 50px;
+       font: message-box;
+       background-color: black;
+       color: aliceblue;
+       text-align: center;
+       margin: 8% 0% 8% 2.5%;
+       cursor: pointer;
+    }
+
+    button:hover {
+        color: blue;
+    }
+
+    form p {
+        color: black;
+        text-align: center;
+    }
+
+    .body-agradecimento {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.826), rgba(0, 0, 0, 0.815)), url(../components/images/pexels-singkham-1108572.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-position-y: 0px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: rgb(210, 215, 151);
+    }
+
+    .main-div-agradecimento {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 12%;
+        font-family: designer;
+        align-content: center;
+    } 
+
+    .main-h1-agradecimento {
+        margin-bottom: 3%;
+        font: 6em designer;
+        
+    }
+
+    .main-h3-agradecimento {
+        margin-bottom: 4%;
+        font: 2em designer;
+    }
+
+    .main-p-agradecimento {
+        font: 1.3em designer;
+    }

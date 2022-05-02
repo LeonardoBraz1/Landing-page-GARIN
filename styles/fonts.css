@@ -1,0 +1,19 @@
+@font-face {
+    font-family: danbury;
+    src: url(/components./fonts/DanburyCaps.otf);
+}
+
+@font-face {
+    font-family: afterg;
+    src: url(/components./fonts/Afterglow-Regular.ttf);
+}
+
+@font-face {
+    font-family: designer;
+    src: url(/components./fonts/DESIGNER.otf);
+}
+
+@font-face {
+    font-family: twilight;
+    src: url(/components./fonts/twilight\ New\ Moon.ttf);
+}
